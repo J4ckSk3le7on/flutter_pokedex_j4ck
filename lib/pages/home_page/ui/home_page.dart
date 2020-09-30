@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_pokedex_j4ck/pages/home_page/widgets/actionsGrid.dart';
-import 'package:flutter_pokedex_j4ck/pages/home_page/widgets/searchPokemon.dart';
-import 'package:flutter_pokedex_j4ck/pages/home_page/widgets/whatPokemonTittle.dart';
+import 'package:flutter_pokedex_j4ck/pages/home_page/ui/widgets/actions_Grid.dart';
+import 'package:flutter_pokedex_j4ck/pages/home_page/ui/widgets/search_Pokemon.dart';
+import 'package:flutter_pokedex_j4ck/pages/home_page/ui/widgets/what_pokemon_tittle.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);
@@ -43,10 +43,6 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
-
-  
-
-  
 
   Widget _credits(context) {
     return Text("Credits",
